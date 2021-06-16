@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.896 s <<< FAILURE! - in TestSuite
+feature(com.sus.api.scm.runner.APIRunner)  Time elapsed: 22.198 s  <<< FAILURE!
+cucumber.runtime.CucumberException: org.junit.ComparisonFailure: expected:<[401]> but was:<[200]>
+	at com.sus.api.scm.runner.APIRunner.feature(APIRunner.java:25)
+Caused by: org.junit.ComparisonFailure: expected:<[401]> but was:<[200]>
+

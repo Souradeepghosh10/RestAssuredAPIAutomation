@@ -1,0 +1,15 @@
+{
+    "UpdatedDate": "2019-06-13T18:51:31.437Z",
+    "Deviceid": "String",
+    "LanguageCode": "EN",
+    "password": "Demopassword@#$%*!_-&+12345678",
+    "UserId": "John_Doe-testuser2",
+    "UtilityAccountNumber": "String",
+    "LoginMode": "0",
+    "IsCSRUser": "0",
+    "ExternalLoginId": "String",
+    "PushToken": "String",
+    "LUpdHideShow": "2019-06-13T18:51:31.437Z",
+    "TimeOffSet": "0",
+    "IPAddress": "172.17.212.113"
+}

@@ -1,0 +1,67 @@
+Request method:	POST
+Request URI:	https://qa.smartcmobile.net/SCM_10.0_S-API/ContactUs/SetConnectMeRequest
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic bnVsbDpudWxs
+				SourceType=1
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "Reason": "Programs",
+    "Subject": "Enroll Program Auto",
+    "AccountNumber": "6473",
+    "MessageBody": "Connect me Request for programs",
+    "Latitude": "",
+    "Longitude": "",
+    "TopicId": "47",
+    "CustomerName": "Nikhil Jain",
+    "UserSignature": "",
+    "PromotionId": 0,
+    "IsDrMode": 0,
+    "AttachmentName": null,
+    "IsPreLogin": false,
+    "UtilityAccountNumber": "411002248606",
+    "FromEMail": "Nikhil.Jain@smartenergywater.in",
+    "LanguageCode": "EN",
+    "Offset": 330,
+    "ResponseXML": "<TemplateResponse><Template><TemplateTypeID> 255</TemplateTypeID><IsParent>1</IsParent><ResponseDetail><Response><TCollectionID>1100</TCollectionID><TCollectionValue>ProgramAttachment_2021022007555143a5aff0f8a44baf8e4bab954228d2a8.png</TCollectionValue></Response><Response><TCollectionID>1096</TCollectionID><TCollectionValue>Nikhil%20Jain</TCollectionValue></Response><Response><TCollectionID>2588</TCollectionID><TCollectionValue>411002248606</TCollectionValue></Response><Response><TCollectionID>2589</TCollectionID><TCollectionValue>Nikhil.Jain%40smartenergywater.in</TCollectionValue></Response><Response><TCollectionID>1099</TCollectionID><TCollectionValue>Enroll%20Program%20Auto</TCollectionValue></Response><Response><TCollectionID>1101</TCollectionID><TCollectionValue>Connect%20me%20Request%20for%20programs</TCollectionValue></Response></ResponseDetail></Template></TemplateResponse>",
+    "TemplateTypeId": "261",
+    "AttachmentXML": null,
+    "UserID": "3301",
+    "IsBillingQuery": 0,
+    "IsUpdate": false,
+    "SaveId": null,
+    "isEmailFromControl": false
+}
+HTTP/1.1 401 Unauthorized
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 247
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type
+Date: Mon, 17 May 2021 15:04:18 GMT
+
+{
+    "version": "7.5.2",
+    "status_code": 401,
+    "responsestatus": -1,
+    "request_time": "2021-05-17 03:04:19 PM",
+    "response_time": "2021-05-17 03:04:19 PM",
+    "error": {
+        "StatusCode": 401,
+        "StatusMessage": "UnAuthorized Access",
+        "Message": "UnAuthorized Access",
+        "status": -1
+    }
+}

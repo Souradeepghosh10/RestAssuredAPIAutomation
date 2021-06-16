@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8934" started-at="2021-02-20T12:36:45Z" finished-at="2021-02-20T12:36:54Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="APIRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sus.api.scm.runner.APIRunner@35fb3008]" name="feature" class="com.sus.api.scm.runner.APIRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="8934" started-at="2021-02-20T12:36:45Z" finished-at="2021-02-20T12:36:54Z">
+      <class name="com.sus.api.scm.runner.APIRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.sus.api.scm.runner.APIRunner@35fb3008]" name="setUpClass" is-config="true" duration-ms="531" started-at="2021-02-20T12:36:45Z" finished-at="2021-02-20T12:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sus.api.scm.runner.APIRunner@35fb3008]" name="feature" duration-ms="8166" started-at="2021-02-20T12:36:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-02-20T12:36:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validating Login Api with UserID]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.sus.api.scm.runner.APIRunner@35fb3008]" name="tearDownClass" is-config="true" duration-ms="38" started-at="2021-02-20T12:36:54Z" finished-at="2021-02-20T12:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.sus.api.scm.runner.APIRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
